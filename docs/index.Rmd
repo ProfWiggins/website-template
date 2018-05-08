@@ -1,12 +1,23 @@
-Want a banner image? Find the image you want and store it in the images directory with the name `banner.jpg`. (Or you can modify the file name in the next line, with any image URL you want.
+---
+output: 
+  prettydoc::html_pretty:
+    theme: tactile
+---
+WHAT YOU WERE GOING TO DO:
 
-![](images/banner.jpg){img:height="300px" width="100%"}
+1. Convert all these to Rmd.
+2. Include the header as a child document.
+3. Offer a one-page web site, which is just an `.md` file.
+4. Edit the project for workshop2018 to add a page for each locale. 
+5. Add hub leaders to the GitHub site.
+    - tell them just to edit their own page or create pages in that directory. 
+    - they should commit/pull/push frequently.
 
-If you don't want a banner, delete this line and all above it.
 
-## Change this to the title of your site.
+ERASE THE ABOVE WHEN YOU GET TO IT.
 
-**Menu**: [Schedule](schedule.md) : [Assignments](assignments.md) : [Data sets](datasets.md) 
+```{r child="header.md"}
+```
 
 This is a simple website where every document is a simple text file. 
 

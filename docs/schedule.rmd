@@ -1,3 +1,12 @@
+---
+output: 
+  prettydoc::html_pretty:
+    theme: tactile
+---
+```{r child="header.md"}
+```
+<!-- Edit below this line -->
+
 This page is written in the style of a day-by-day schedule. (You can delete this line when you create your actual schedule).
 
 ## Stats 101 Daily schedule: Fall 2018

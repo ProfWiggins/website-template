@@ -1,3 +1,14 @@
+---
+output: 
+  prettydoc::html_pretty:
+    theme: tactile
+---
+```{r child="header.md"}
+```
+<!-- Edit below this line -->
+
+# Assignments 
+
 Perhaps you'd like to organize things by homework assignment.
 
 ## Assignment 1: Due Sept. 16, 2018
