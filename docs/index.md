@@ -1,32 +1,22 @@
-# StatPREP Course Materials
+Want a banner image? Find the image you want and store it in the images directory with the name `banner.jpg`. (Or you can modify the file name in the next line, with any image URL you want.
 
-![Alternative text](https://www.macalester.edu/~kaplan/kaplan.jpg)
+![](images/banner.jpg){img:height="300px" width="100%"}
 
-<src img = "https://www.macalester.edu/~kaplan/kaplan.jpg" width = '10%'>
+If you don't want a banner, delete this line and all above it.
 
-> Note to instructors: If you are an instructor who was directed to this site so that you can set up your own web page, you'll find the instructions at <http://github.com/dtkaplan/stat101>. 
+## Change this to the title of your site.
 
-> Another note to instructors: You'll be editing the `index.md` file in your own repository to put in your own content. None of the material below this note will be appropriate for your individual site, so make sure that you **delete** all of the material in your `index.md` that shows up the very first time you edit it.
+**Menu**: [Schedule](schedule.md) : [Assignments](assignments.md) : [Data sets](datasets.md) 
 
-## Welcome to StatPREP. 
+This is a simple website where every document is a simple text file. 
 
-This page contains links and other student-facing information for StatPREP activities.
+* It consists of several documents (as many or few as you want), all of which can written with Markdown syntax. Thus, every document's names ends with the `.md` suffix.
+* There's an optional horizontal menu just below the title. 
+    - You can change the *names* of the menu items by editing the text in the *square brackets*. 
+    - You can change the *target* file for the menu item by editing the name of the file in the *parentheses*.
+    - You can add or delete items from the menu line just by adding or removing new elements with the link structure: `[Menu item name](menu_item_file.md)`.
+* You can delete or modify any element, as you like, add new pages.
+* If you become familiar with RStudio, and can edit Rmd files, there's another template available [here](github.com/StatPREP/Rmd-website-template) which will let you do 
 
-> If you are a student looking for the web page for your own instructor's web site, you're not there. Check with your instructor to make sure that you have the right URL for your instructor's web site.
 
-## Tutorials
 
-Tutorials are interactive web documents that instructors can use as in-class activities or as assignments. Chances are, your instructor has his or her own web site that contains links to the Tutorials being used in your class. But your welcome to browse this site to look at Tutorials that were not assigned.
-
-1. [Confidence in taxis](https://dtkaplan.shinyapps.io/Confidence_in_Taxis/)
-2. [Experiment with paper planes](https://dtkaplan.shinyapps.io/Paper_planes/)
-3. [Driver reaction times](http://dtkaplan.shinyapps.io/Traffic_signs)
-4. [Data and diabetes](https://dtkaplan.shinyapps.io/Diabetes/)
-
-## Lock data sets
-
-1. [US whatever](http://www.lock5stat.com/datasets/USStates.csv)
-
-```r
-State_data <- read.csv("http://www.lock5stat.com/datasets/USStates.csv")
-```

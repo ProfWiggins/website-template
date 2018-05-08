@@ -1,0 +1,9 @@
+Perhaps you'd like to organize things by homework assignment.
+
+## Assignment 1: Due Sept. 16, 2018
+
+You can give a description of the assignment here.
+
+## Assignment 2: Due Sept 28, 2018
+
+And so on.

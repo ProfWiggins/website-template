@@ -1,0 +1,14 @@
+## Datasets
+
+Some examples of referring to data .... If you are not using R in your class, then the R commands won't be relevant. 
+
+1. Who are you? data. We entered this data frame in class. You can look at it by [following this link](https://docs.google.com/spreadsheets/d/1Lp7_FfLune36fmULuGqU1HMI4o-wiRIpSdjIijj0EbQ/edit?usp=sharing).
+2. Data on US States from the Lock textbook: [link](http://www.lock5stat.com/datasets/USStates.csv)
+3. R command to read in the Lock US States data.
+```r
+State_data <- read.csv("http://www.lock5stat.com/datasets/USStates.csv")
+```
+4. Read the data from the Google sheet in (1).
+```r
+Commutes <- gs_read_csv(gs_url("https://docs.google.com/spreadsheets/d/1Lp7_FfLune36fmULuGqU1HMI4o-wiRIpSdjIijj0EbQ"))
+```

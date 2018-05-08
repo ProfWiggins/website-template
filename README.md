@@ -12,11 +12,11 @@ The main resource we'll use is called *GitHub*. This is a free service that's ve
 
 Right now you are looking at a tab in your browser. For the sake of simplicity, let's call this the "Stat101 Tab." Since you will want to refer to these instructions while you are doing your setup, you should open another tab in your browser, which for simplicity we'll call the "Setup Tab." You will want to have both tabs available to you so that you can go back and forth. You might, for instance, put them side by side on your screen. Like this:
 
-![two tabs](two-tabs.png)
+![two tabs](docs/setup_instructions/two-tabs.png)
 
 1. You will need a GitHub account. You just have to set this up once, and it's the same kind of thing as you do all the time when you set up a new account on some service. To set up your account, point the "Setup Tab" to `github.com`. You'll get a page like the following. 
     
-    ![](two-tabs-account.png) 
+    ![](docs/setup_instructions/two-tabs-account.png) 
   
     
     Go ahead and make an account. Some tips:    
@@ -29,7 +29,7 @@ Right now you are looking at a tab in your browser. For the sake of simplicity, 
 
     The top of both tabs will look like this:
     
-    ![](fork.png)
+    ![](docs/setup_instructions/fork.png)
 
 4. Within the Setup Tab, press the "Fork" button. (If you didn't login as you were supposed to in step (2), you will be asked to login to GitHub. Then you'll have to do step (3) again.)
     - After you successfully complete the last step, you'll get a brief message saying that your copy of the repository is being created.
@@ -40,20 +40,20 @@ Right now you are looking at a tab in your browser. For the sake of simplicity, 
     
 6. Notice some things about the web page you are looking at in the Setup Tab. First, the URL of that page will be `github.com/`*your_user_ID*`/stat101`. Second the top of the page will look like this (except it won't say `dtkaplan`, it will have your own GitHub ID):
 
-    ![](settings.png)
+    ![](docs/setup_instructions/settings.png)
     
     * One of the tabs *within* the page is called "Settings." Go there.
     
 7. Right near the top of the Settings tab is a label "Repository Name." The box will contain `stat101`. Change this to something that's suitable for your own course. Keep the name short and don't put any spaces in the name. If your course is actually called "Stat101", then you can keep the name. Otherwise change it to "Math2330" or "Stat10" or whatever is appropriate for your course at your institution. Press the "Rename" button.
 8. Stay on the "Settings" tab, but scroll down until you see a section that looks like this:
 
-    ![](gh-pages.png)
+    ![](docs/setup_instructions/gh-pages.png)
     
 Yours will be a little different. In particular, in the place where the image above says "Master Branch /docs folder," your page will say "None." Change the "None" to "Master Branch /docs folder" and press save.    
 
 9. Scroll back up to the top of the page. At the top left will be *your* user name followed by *your* course name. Click on the course name and you'll come to a page that looks like this:
     
-![](repository.png)
+![](docs/setup_instructions/repository.png)
 
 ----------
 
