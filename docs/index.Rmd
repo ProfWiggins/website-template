@@ -3,25 +3,24 @@ output:
   prettydoc::html_pretty:
     theme: tactile
 ---
+
+<!--
 WHAT YOU WERE GOING TO DO:
 
-1. Convert all these to Rmd.
-2. Include the header as a child document.
-3. Offer a one-page web site, which is just an `.md` file.
 4. Edit the project for workshop2018 to add a page for each locale. 
 5. Add hub leaders to the GitHub site.
     - tell them just to edit their own page or create pages in that directory. 
     - they should commit/pull/push frequently.
 
 
-ERASE THE ABOVE WHEN YOU GET TO IT.
+ERASE THE ABOVE WHEN YOU GET TO IT. -->
 
 ```{r child="header.md"}
 ```
 
 This is a simple website where every document is a simple text file. 
 
-* It consists of several documents (as many or few as you want), all of which can written with Markdown syntax. Thus, every document's names ends with the `.md` suffix.
+* It consists of several documents (as many or few as you want), all of which can written with Markdown syntax. Thus, every document's names ends with the `.Rmd` suffix.
 * There's an optional horizontal menu just below the title. 
     - You can change the *names* of the menu items by editing the text in the *square brackets*. 
     - You can change the *target* file for the menu item by editing the name of the file in the *parentheses*.
